@@ -5,24 +5,24 @@
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover; 
-  height: 700px;
+  height: 650px;
   min-width: $mobile-breakpoint;
 }
 
 .sectionTitle{
     color:$neutral-white;
     font-family: $title-font;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
-    letter-spacing: 10px;
-    margin-top:80px;
+    letter-spacing: 8px;
+    margin-top:50px;
     text-align: center;
     width: 100%;
 }
 
 .divArrown{
   display: flex;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .arrowIcon{
