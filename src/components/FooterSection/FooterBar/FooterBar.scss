@@ -1,0 +1,33 @@
+@import '/src/variables.scss';
+
+.footerBar{
+    align-items: center;
+    display:flex;
+    min-height: 8vh;
+    padding:20px 0px 50px 0px;
+}
+
+.footerBar-links{
+    display: flex;
+    margin: auto;
+}
+
+.footerBar-links li{
+    list-style: none;
+}
+
+.footerBar-links a{
+    color:$primary-dark-moderate-cyan;
+    display: block;
+    font-family: $text-font;
+    font-size: 13px;
+    font-weight: bold;
+    margin:0px 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footerBar-links li a:hover{
+    color: $neutral-white;
+}

@@ -1,0 +1,83 @@
+@import '/src/variables.scss';
+
+.descriptionContainer{
+    margin:auto;
+    padding:0 20%;
+}
+
+.learnMore{
+    color:$neutral-very-dark-desaturated-blue;
+    font-family: $title-font;
+    font-size: 14px;    
+    position: relative;
+    text-decoration: none;
+}
+
+.learnMore::before{
+    border-radius: 50px;
+    content: "";
+    height: 5px;
+    left:0;
+    position: absolute;
+    top: 80%;
+    width: 0;
+}
+
+.learnMore:hover::before{
+    width: 100%; 
+}
+
+.red::before{
+    background-color: $primary-soft-red;
+}
+
+.yellow::before{
+    background-color: $primary-yellow;
+}
+
+.centeredDesc{
+    text-align: center;
+}
+
+@mixin title-style {
+    font-family:$title-font;
+}
+
+@mixin text-style {
+    font-family:$text-font;
+    line-height: 1.8;
+}
+
+.DescriptionTitle {
+    @include title-style;
+    color:$neutral-very-dark-desaturated-blue;
+    font-size: 37px;    
+}
+
+.DescriptionTitleImg{
+    @include title-style;
+    color:$primary-dark-blue;
+}
+
+.DescriptionTxtImg{
+    @include text-style;
+    color:$primary-dark-blue;
+}
+
+.DescriptionTxt{
+    @include text-style;
+    color:$neutral-dark-grayish-blue;
+    font-weight: 100;
+}
+
+@media (max-width:$mobile-breakpoint) {
+    .descriptionContainer{
+        margin:50px 0px;
+        padding:0 2%;;
+        text-align: center;
+    }
+    .productSection,
+    .learnMore::before{
+        width: 100%;
+    }
+}

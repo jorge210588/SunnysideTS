@@ -1,0 +1,28 @@
+@import '/src/variables.scss';
+
+.clients{
+    display:flex;
+}
+
+.clientsTestimonials{
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    padding: 100px;
+}
+
+.clientsTitle{
+    color:$neutral-dark-grayish-blue;
+    font-family: $title-font;
+    letter-spacing: 4px;
+    margin:0px auto 50px auto;
+}
+
+@media (max-width:$mobile-breakpoint){
+    .clients{
+        display: block;
+    }
+    .clientsTestimonials{
+        padding:50px 10px 10px 10px;
+    }
+}

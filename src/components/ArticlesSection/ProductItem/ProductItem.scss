@@ -1,0 +1,29 @@
+@import '/src/variables.scss';
+
+.productArticle{
+    display: flex;
+}
+
+.align-yellow{
+    flex-direction: row-reverse;
+}
+
+.align-red{
+    flex-direction: row;
+}
+
+.productSection{
+    display: flex;
+    width: 50%;
+}
+
+@media (max-width:$mobile-breakpoint) {
+    .productArticle{
+        display: block;
+        width: 100%;
+    }
+    .productSection{
+        width: 100%;
+    }
+}
+

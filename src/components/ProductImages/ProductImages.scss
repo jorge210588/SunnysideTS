@@ -1,0 +1,20 @@
+@import '/src/variables.scss';
+
+.flexImages{
+    display: flex;
+}
+
+.imgRow{
+    display: flex;
+    width: 25%;
+}
+
+@media (max-width:$mobile-breakpoint){
+    .flexImages{
+        flex-wrap: wrap;
+    }
+
+    .imgRow{
+        width: 50%;
+    }
+}

@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,800;9..144,900&family=Permanent+Marker&display=swap);
+
+//Colors
+
+//Primary
+$primary-soft-red: hsl(7, 99%, 70%);
+$primary-yellow: hsl(51, 100%, 49%);
+$primary-dark-desaturated-cyan:hsl(167, 40%, 24%); //Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)#25564b letra cereza
+$primary-dark-blue:hsl(198, 62%, 26%);//- Dark blue (photography text): hsl(198, 62%, 26%) #185067 letra mandarina
+$primary-dark-moderate-cyan: hsl(168, 34%, 41%);//- Dark moderate cyan (footer): hsl(168, 34%, 41%) #458c7e
+$primary-footer-bg:rgb(144, 212, 197);
+//Neutral
+$neutral-very-dark-desaturated-blue: hsl(212, 27%, 19%);// - Very dark desaturated blue: hsl(212, 27%, 19%)#23303e
+$neutral-very-dark-grayish-blue: hsl(213, 9%, 39%);//- Very dark grayish blue: hsl(213, 9%, 39%) #5a636c
+$neutral-dark-grayish-blue: hsl(232, 10%, 55%);//- Dark grayish blue: hsl(232, 10%, 55%)#818498
+$neutral-grayish-blue: hsl(210, 4%, 67%);
+$neutral-white: hsl(0, 0%, 100%);
+
+//Typography
+
+//Body Copy
+
+$body-font-size: 18px;
+
+//Font
+$text-font:Barlow, sans-serif;
+$title-font:Fraunces, sans-serif;
+$test:Impact,Haettenschweiler, sans-serif;
+// Family: [Barlow](https://fonts.google.com/specimen/Barlow)
+//Weights: 600
+//Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+//Weights: 700, 900
+
+//Breakpoints
+$mobile-breakpoint: 375px;
+$desktop-breakpoint: 1440px

@@ -1,0 +1,24 @@
+@import '/src/variables.scss';
+
+.iconsBar{
+    align-items: center;
+    display:flex;
+    font-family: $text-font;
+}
+
+.iconsBar-links{
+    display: flex;
+    margin: auto;
+}
+
+.iconsBar-links li{
+    list-style: none;
+}
+
+.iconsBar-links a{
+    margin:0px 10px;
+}
+
+.iconsBar-links li a:hover{
+    filter: invert(95%) sepia(95%) saturate(0%) hue-rotate(193deg) brightness(106%) contrast(106%);
+}

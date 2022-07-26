@@ -1,0 +1,64 @@
+@import "/src/variables";
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.navBar{
+    align-items: center;
+    display:flex;
+    min-height: 8vh;
+    padding:30px 20px 30px 20px;
+}
+
+.navBar-links{
+    display: flex;
+    margin-left: auto;
+}
+
+.navBar-links li{
+    list-style: none;
+}
+
+.navBar-links a{
+    color:$neutral-white;
+    display: block;
+    font-size: 13px;
+    font-family: $text-font;
+    margin:0px 5px;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+
+.navBar-links li a:hover:not(.active){
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 50px;
+    font-family: $title-font;
+    text-transform: uppercase;
+}
+
+.navBar-links li a.active{
+    background-color: $neutral-white;
+    border-radius: 50px;
+    color:black;
+    text-transform: uppercase;
+}
+
+.menuImage{
+    display: none;
+    margin-left: auto;
+}
+
+@media (max-width:$mobile-breakpoint) {
+    .navBar-links{
+        display: none;
+    }
+
+    .menuImage{
+        display: inline;
+    }
+}

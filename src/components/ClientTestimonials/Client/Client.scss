@@ -1,0 +1,35 @@
+@import '/src/variables.scss';
+
+.clientProfile{
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.clientPhoto{
+    border-radius: 100px;
+    max-width: 65px;
+}
+
+.clientDescription{
+    color:$neutral-very-dark-grayish-blue;
+    font-family: $text-font;
+    font-size: 17px;
+    margin:50px 0px;
+}
+
+.clientName{
+    color:$neutral-very-dark-desaturated-blue;
+    font-family: $title-font;
+}
+
+.clientPosition{
+    color:$neutral-grayish-blue;
+    font-family: $text-font;
+    margin-bottom: 70px;
+}
+
+@media (max-width:$mobile-breakpoint){
+    .clientDescription{
+        margin:25px 0px;
+    }
+}
