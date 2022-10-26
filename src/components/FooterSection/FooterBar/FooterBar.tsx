@@ -5,15 +5,15 @@ const FooterBar = () => {
   return (
     <>
       <nav className="footerBar">
-        <ul class="footerBar-links">
+        <ul className="footerBar-links">
           <li>
-            <a href="#">About</a>
+            <a href="https://www.google.com">About</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="https://www.google.com">Services</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="https://www.google.com">Projects</a>
           </li>
         </ul>
       </nav>

@@ -5,16 +5,16 @@ import './ProductImages.scss'
 const ProductImages = () => {
   return (
     <section className="flexImages">
-      <div class="imgRow">
+      <div className="imgRow">
         <ProductImage image='bottles' size='small'/>
       </div>
-      <div class="imgRow">
+      <div className="imgRow">
         <ProductImage image='orange' size='small'/>
       </div>
-      <div class="imgRow">
+      <div className="imgRow">
         <ProductImage image='cone' size='small'/>
       </div>
-      <div class="imgRow">
+      <div className="imgRow">
         <ProductImage image='cubes' size='small'/>
       </div>
     </section>

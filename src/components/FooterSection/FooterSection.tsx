@@ -6,9 +6,9 @@ import logoIcon from "../../images/logo.svg";
 
 const FooterSection = () => {
   return (
-    <footer class="footerSection">
-      <div class="footerItem">
-        <img className="footerLogo" src={logoIcon} />
+    <footer className="footerSection">
+      <div className="footerItem">
+        <img className="footerLogo" alt="footer" src={logoIcon} />
       </div>
       <FooterBar />
       <IconsBar />

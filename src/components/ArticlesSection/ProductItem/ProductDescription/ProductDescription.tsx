@@ -1,7 +1,14 @@
 import React from "react";
 import "./ProductDescription.scss";
 
-const ProductDescription = (props) => {
+interface ProductDescriptionProps {
+  name:string, 
+  description:string, 
+  hideLearnMore?:boolean, 
+  lineColor?:string
+}
+
+const ProductDescription = (props:ProductDescriptionProps) => {
   const { name, description, hideLearnMore, lineColor } = props;
   let descriptionClass = "descriptionContainer";
   if (hideLearnMore) {

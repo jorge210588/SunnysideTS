@@ -4,21 +4,21 @@ import logoIcon from "../../../images/logo.svg";
 import menuImage from "../../../images/icon-hamburger.svg";
 
 const NavBar = () => {
-  const [activeTab, setActiveTab] = React.useState(0);
+  const [activeTab, setActiveTab] = React.useState<number>(0);
   const activeClass = "active";
 
   return (
     <>
       <nav className="navBar">
         <div className="heading">
-          <img src={logoIcon} />
+          <img src={logoIcon} alt="logo"/>
         </div>
 
-        <ul class="navBar-links">
+        <ul className="navBar-links">
           <li>
             <a
               className={activeTab === 1 ? activeClass : ""}
-              href="#"
+              href="/#"
               onClick={() => {
                 setActiveTab(1);
               }}
@@ -29,7 +29,7 @@ const NavBar = () => {
           <li>
             <a
               className={activeTab === 2 ? activeClass : ""}
-              href="#"
+              href="/#"
               onClick={() => {
                 setActiveTab(2);
               }}
@@ -40,7 +40,7 @@ const NavBar = () => {
           <li>
             <a
               className={activeTab === 3 ? activeClass : ""}
-              href="#"
+              href="/#"
               onClick={() => {
                 setActiveTab(3);
               }}
@@ -51,7 +51,7 @@ const NavBar = () => {
           <li>
             <a
               className={activeTab === 4 ? activeClass : ""}
-              href="#"
+              href="/#"
               onClick={() => {
                 setActiveTab(4);
               }}
@@ -60,7 +60,7 @@ const NavBar = () => {
             </a>
           </li>
         </ul>
-        <img className='menuImage' src={menuImage}/>
+        <img className='menuImage' src={menuImage} alt="Menu"/>
       </nav>
     </>
   );

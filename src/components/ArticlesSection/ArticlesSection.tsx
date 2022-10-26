@@ -42,7 +42,7 @@ const ArticlesSection = () => {
       />
       <article className="bottomImagesSection">
         <div className="bottomImage cherry bgImg">
-          <div class="centerContent">
+          <div className="centerContent">
             <ProductDescription
               name={product3.name}
               description={product3.description}
@@ -51,7 +51,7 @@ const ArticlesSection = () => {
           </div>
         </div>
         <div className="bottomImage mandarin bgImg">
-          <div class="centerContent">
+          <div className="centerContent">
             <ProductDescription
               name={product4.name}
               description={product4.description}

@@ -9,7 +9,7 @@ const HeaderSection = () => {
       <NavBar />
       <section className="sectionTitle">WE ARE CREATIVES</section>
       <div className="divArrown">
-        <img className="arrowIcon" src={arrowIcon} />
+        <img className="arrowIcon" src={arrowIcon} alt="arrow"/>
       </div>
     </header>
   );

@@ -2,7 +2,16 @@ import React from "react";
 import ProductDescription from "./ProductDescription/ProductDescription";
 import ProductImage from "./ProductImage/ProductImage";
 import "./ProductItem.scss";
-const ProductItem = (props) => {
+
+interface ProductItemProps{
+  name:string,
+  description:string,
+  image:string,
+  lineColor:string,
+  size:string
+}
+
+const ProductItem = (props:ProductItemProps) => {
   const { name, description, image, lineColor, size } = props;
   const alignClass = lineColor ? " align-"+lineColor : "";
   
